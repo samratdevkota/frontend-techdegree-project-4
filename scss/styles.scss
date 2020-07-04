@@ -1,6 +1,7 @@
 // ==========================================================================
-// Utilities Imports
+// Global Imports
 // ==========================================================================
 
-@import 'variables';
-@import 'mixins';
+@import 'base/index';
+@import 'component/index';
+@import 'utilities/index';
