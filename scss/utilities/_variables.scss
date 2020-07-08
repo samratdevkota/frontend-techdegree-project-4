@@ -1,0 +1,155 @@
+//==========================================================
+//      Color Variables
+//==========================================================
+
+// Descriptive Color Palatte Variables
+$viking-green   : #58e1c1;
+$malibu-blue    : #51ddfc;
+$grey           : #797e83;
+$white          : #fff;
+
+
+$majesty-purple     : #927bc1;
+$coral-orange       : #fd7856;
+$lilac-purple       : #deb2ee;
+$anakiwa-blue       : #7ee6fd;
+$vista-green        : #88d9a0;
+$fountain-blue      : #4da2bb;
+$sea-pink           : #ec9fa3;
+$tangerine-orange   : #fd9f85;
+$sunglo-red         : #e4757a;
+$emerald-green      : #63cc82;
+$riptide-green      : #80e8d1;
+
+$shakespeare-blue   : #3fabca;
+
+
+// Functional Color Palatte Variables
+
+$color-primary      : $viking-green;
+$color-secondary    : $malibu-blue;
+$color-font--base   : $grey;
+$color-font--btn    : $white;
+
+// Theme Color Variable Map
+
+$button-colors: (
+    'default': $malibu-blue,
+    'success': $emerald-green,
+      'error': $sunglo-red,
+    'warning': $coral-orange,
+       'info': $majesty-purple,
+);
+
+$grid-colors: (
+  grey, //1
+  grey, //2
+  $lilac-purple, //3
+  $anakiwa-blue, //4
+  $vista-green, //5
+  $shakespeare-blue, //6
+  $sea-pink, //7
+  $tangerine-orange, //8
+  grey, //9
+  grey, //10
+  grey, //11
+  $riptide-green, //12
+);
+
+//==========================================================
+//      Font Stacks Variables
+//==========================================================
+
+// Font Weights
+
+$font-weight--thin      : 100;
+$font-weight--light     : 300;
+$font-weight--medium    : 400;
+$font-weight--bold      : 700;
+$font-weight--ultrabold : 900;
+
+// Font size
+
+$font-size--base       : 16px;
+$font-size--headline   : px-to-em(28px);
+$font-size--blockquote : px-to-em(24px);
+$font-size--input      : px-to-em(14px);
+
+// Font Stack Variables
+
+$font-url--google     : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-stack--primary  : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Style Variables
+
+$font-style--italic: italic;
+
+// Line Height Variables
+
+$font-lh--base   : 1.45em;
+
+//Text Indent Variables
+
+$font-indent   : 10px;
+
+
+
+//==========================================================
+//      Media Query & Breakpoint Variables
+//==========================================================
+
+// Breakpoints
+
+$break-desktop    : 768px;
+$break-maximum    : 1400px;
+
+//==========================================================
+//      Layout Variables
+//==========================================================
+
+//Width Variables
+
+$width-btn        : px-to-pc(390px);
+$width-blockquote : px-to-pc(360px);
+$width-headline   : px-to-pc(320px);
+$width-navit      : px-to-pc(400px);
+$width-input      : px-to-pc(380px);
+$width-gutter     : 10px;
+
+//Margin Variables
+
+$margin-btn: 5px px-to-pc(6.9px);
+$margin-blockquote: px-to-pc(20px) 0 px-to-pc(20px) px-to-pc(20px);
+$margin-headline: px-to-pc(20px) 0 px-to-pc(20px) px-to-pc(20px);
+$margin-img: 10px auto 20px auto;
+$margin-input: px-to-pc(10px);
+
+//Padding Variables
+
+$padding-btn: 12px 0;
+$padding-img:  px-to-pc(15px);
+$padding-blockquote: 0 px-to-pc(20px);
+$padding-input: 0 0 px-to-pc(10px) 0;
+
+//==========================================================
+//      Border Variables
+//==========================================================
+
+//Border Width Variables
+$bdr-width--blockquote: 10px;
+$bdr-width--img: 1px;
+$bdr-width--input: 5px;
+
+//Border Syle Variables
+$bdr-style--blockquote: solid;
+$bdr-style--img: solid;
+$bdr-style--blockquote: solid;
+$bdr-style--input: solid;
+
+//Border Radius Variables
+$br-blockquote: 5px;
+$br-btn: 5px;
+
+//Border Color Variables
+$bdr-color--img: $grey;
+$bdr-color--blockquote: $color-primary;
