@@ -11,3 +11,13 @@
     border-left: 8px solid $color-primary;
     border-radius: 5px;
 }
+
+%button {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-font--btn;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

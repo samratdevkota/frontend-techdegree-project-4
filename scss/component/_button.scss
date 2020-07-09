@@ -3,13 +3,7 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $color-font--btn;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+    @extend %button;
   }
 
 .default {
@@ -17,17 +11,17 @@
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $sunglo-red;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $majesty-purple;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $emerald-green;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $tangerine-orange;
 }
